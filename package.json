@@ -6,7 +6,11 @@
   "dependencies": {
     "core-js": "^3.17.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6"
+  },
   "scripts": {
     "build": "babel src -d dist"
   },
